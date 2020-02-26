@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">highjune</string>
+
+
+    <!-- media player -->
+    <string name="media_player_label">Layout >media player</string>
+    <string name="media_player_description">
+        미디어 플레이어로 재생
+    </string>
+    <string-array name="media_player_apis">
+        <item>AudioManager</item>
+        <item>MediaPlayer</item>
+    </string-array>
+
+
+
+    <!-- media player -->
+    <string name="default_list_label">defaultList > default Recycler view List</string>
+    <string name="default_list_description">
+       기본적인 recycle view 구성입니다.
+    </string>
+    <string-array name="default_list_apis">
+        <item>RecycleView</item>
+        <item>Adapter</item>
+        <item>Holder</item>
+    </string-array>
+</resources>

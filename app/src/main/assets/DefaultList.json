@@ -1,0 +1,23 @@
+{ "DefaultList" : [
+  {
+    "defaultTitle" : "미션임파서블",
+    "defaultBody" : "15세 관람가",
+    "defaultImage" : "https://bimage.interpark.com/goods_image/4/6/0/9/245784609s.jpg"
+  },
+  {
+    "defaultTitle" : "어벤져스",
+    "defaultBody" : "12세 관람가",
+    "defaultImage" : ""
+  },
+  {
+    "defaultTitle" : "범죄도시",
+    "defaultBody" : "19세 관람가",
+    "defaultImage" : ""
+  },
+  {
+    "defaultTitle" : "다크나이트",
+    "defaultBody" : "19세 관람가",
+    "defaultImage" : ""
+  }
+]
+} 
