@@ -15,7 +15,7 @@ import com.han.highjune.Util.Parser
 
 class DefaultListFragment :Fragment(){
 
-
+//
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
