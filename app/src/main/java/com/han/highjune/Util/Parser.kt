@@ -35,8 +35,8 @@ class Parser{
         }
 
         fun getMusicList(context:Context,fileName:String ): ArrayList<Music> {
-            val list_album: ArrayList<Music> = ArrayList()
-            val gson = Gson()
+            val lst: ArrayList<Music> = ArrayList()
+            val gson2 = Gson()
             try {
                 val `is`: InputStream = context.assets.open("${fileName}.json")
                 val buffer = ByteArray(`is`.available())
@@ -48,14 +48,14 @@ class Parser{
                 var index = 0
                 while (index < jsonArray.length()) {
                     val albumVO: Music =
-                        gson.fromJson(jsonArray[index].toString(), Music::class.java)
-                    list_album.add(albumVO)
+                        gson2.fromJson(jsonArray[index].toString(), Music::class.java)
+                    lst.add(albumVO)
                     index++
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
             }
-            return list_album
+            return lst
         }
     }
 }

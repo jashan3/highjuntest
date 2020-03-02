@@ -17,6 +17,10 @@ class VMListViewModel(context: Context):ViewModel(){
         refresh(context)
     }
 
+    fun empty() {
+        _music.value = emptyList()
+    }
+
     fun refresh(context: Context){
         viewModelScope.launch {
             delay(500)

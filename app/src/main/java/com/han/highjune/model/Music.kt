@@ -11,8 +11,8 @@ data class Music(
 {
 companion object{
 
-    public fun refresh (context: Context):List<Music> {
-       return Parser.getMusicList(context,"DefaultList")
+     fun refresh (context: Context):List<Music> {
+       return Parser.getMusicList(context,"MusicList")
     }
 
     val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Music>() {
