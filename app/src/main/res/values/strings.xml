@@ -24,4 +24,17 @@
         <item>Adapter</item>
         <item>Holder</item>
     </string-array>
+
+
+    <!-- media player -->
+    <string name="vm_list_label">View model > View model Recycler view List</string>
+    <string name="vm_list_description">
+       View model를 이용한 recycle view 구성입니다.
+    </string>
+    <string-array name="vm_list_apis">
+        <item>RecycleView</item>
+        <item>Adapter</item>
+        <item>Holder</item>
+        <item>View model</item>
+    </string-array>
 </resources>

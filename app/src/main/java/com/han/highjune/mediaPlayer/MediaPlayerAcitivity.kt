@@ -13,6 +13,7 @@ class MediaPlayerAcitivity  : AppCompatActivity() {
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
         EdgeToEdge.setUpRoot(findViewById(R.id.root))
         EdgeToEdge.setUpAppBar(findViewById(R.id.app_bar), toolbar)
         EdgeToEdge.setUpScrollingContent(findViewById(R.id.content))

@@ -36,6 +36,7 @@
                 android:name="com.han.highjune.demo.APIS"
                 android:resource="@array/media_player_apis" />
         </activity>
+        <service android:name=".mediaPlayer.MediaPlayerService" />
 
         <activity android:name=".defaultList.DefaultListActivity"
             android:label="@string/default_list_label">
@@ -51,7 +52,21 @@
                 android:resource="@array/default_list_apis" />
         </activity>
 
-        <service android:name=".mediaPlayer.MediaPlayerService" />
+        <activity android:name=".ViewModelList.VMActivitiy"
+            android:label="@string/vm_list_label">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.han.highjune.intent.category.DEMO" />
+            </intent-filter>
+            <meta-data
+                android:name="com.han.highjune.demo.DESCRIPTION"
+                android:value="@string/vm_list_description" />
+            <meta-data
+                android:name="com.han.highjune.demo.APIS"
+                android:resource="@array/vm_list_apis" />
+        </activity>
+
+
     </application>
 
 </manifest>
