@@ -42,7 +42,8 @@ class VMActivitiy : AppCompatActivity(){
 //             adapter.submitList(music)
 //        }
 
-        //태스트 주석
+        //테스트 주석 입니다
+        //test
         Log.i("","## ${Parser.getMusicList(this,"MusicList")}")
     }
 
