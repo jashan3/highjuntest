@@ -67,6 +67,22 @@
         </activity>
 
 
+
+        <activity android:name=".notification.NotiActivity"
+            android:label="@string/noti_label">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.han.highjune.intent.category.DEMO" />
+            </intent-filter>
+            <meta-data
+                android:name="com.han.highjune.demo.DESCRIPTION"
+                android:value="@string/noti_description" />
+            <meta-data
+                android:name="com.han.highjune.demo.APIS"
+                android:resource="@array/noti_apis" />
+        </activity>
+
+
     </application>
 
 </manifest>

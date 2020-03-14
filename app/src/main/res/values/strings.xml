@@ -26,7 +26,7 @@
     </string-array>
 
 
-    <!-- media player -->
+    <!-- View model Recycler view -->
     <string name="vm_list_label">View model > View model Recycler view List</string>
     <string name="vm_list_description">
        View model를 이용한 recycle view 구성입니다.
@@ -36,5 +36,14 @@
         <item>Adapter</item>
         <item>Holder</item>
         <item>View model</item>
+    </string-array>
+
+    <!-- notification -->
+    <string name="noti_label">Notification</string>
+    <string name="noti_description">
+      Notification 테스를위한 클래스입니다.
+    </string>
+    <string-array name="noti_apis">
+        <item>Notification</item>
     </string-array>
 </resources>
